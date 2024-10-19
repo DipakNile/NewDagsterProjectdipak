@@ -64,10 +64,10 @@ First, install your Dagster code as a Python package. By using the `--editable` 
 pip install -e ".[dev]"
 ```
 
-Then, start the Dagit web server:
+Then, start the Dagster web server:
 
 ```bash
-dagit
+dagster dev
 ```
 
 Open http://localhost:3000 with your browser to see the project.
@@ -242,7 +242,7 @@ Using environment variables, you can define various configuration options for yo
 Check out [Using environment variables and secrets](https://docs.dagster.io/guides/dagster/using-environment-variables-and-secrets) for more info and examples.
 ### Adding new Python dependencies
 
-You can specify new Python dependencies in `setup.py`.
+You can specify new Python dependencies in `pyproject.toml`.
 
 ### Testing
 
